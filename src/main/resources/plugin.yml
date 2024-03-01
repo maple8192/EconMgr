@@ -1,0 +1,9 @@
+name: EconMgr
+version: '${project.version}'
+main: io.github.maple8192.econmgr.EconMgr
+api-version: '1.20'
+depend: [ Economics ]
+
+commands:
+  money:
+    usage: 'usage: /money [<player_name> <sub_command> ...]'
